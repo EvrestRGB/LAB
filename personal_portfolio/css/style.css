@@ -1,0 +1,1659 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: white !important;;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-item {
+    color: black !important;
+}
+.dropdown-menu {
+    width : 100%;
+}
+
+#home-section {
+    /* display: block; */
+    /* height: 100%;
+    width: 100%; */
+    padding: 100px;
+    /* padding-left: 120px; */
+}
+
+#about-section {
+    color: aliceblue;
+    padding: 100px;
+}
+
+#projects-section {
+    color: aliceblue;
+    padding-top: 100px;
+}
+
+#contact-section {
+    color: aliceblue;
+    padding: 75px;
+    margin-top: 100px;
+}
+
+/* #skills-section {
+    margin-top: 150px;
+} */
+
+footer {
+    padding: 100px;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 116px;
+    margin-top: 116px;
+    /* margin-top: 51.25; */
+}
+
+main>div>#home-section>div {
+    text-align: center;
+    position: relative;
+}
+
+/* main>div>section>div>h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+main>div>#about-section>div>div>div>img {
+    width: 100%;
+    border-radius: 10px;
+    /* height: 60%; */
+}
+
+#about-section>div>div>div>h1 {
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+#projects-section>div>div>div>a>img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+#projects-section>div>div>div>a>img:hover {
+    opacity: 0.5;
+}
+
+#projects-section>div>div>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+.centered {
+    position: absolute;
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+    display: block;
+    z-index: 8;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+}
+
+.centeredLeft {
+    left: 27%;
+}
+
+.centeredCenter {
+    left: 50%;
+}
+
+.centeredRight {
+    left: 73%;
+}
+
+.centered:hover+#projects-section>div>div>div>a>img {
+    visibility: visible;
+    color: rgb(199, 199, 199)
+}
+
+#contact-section>div>div>h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.form-control {
+    background-color: black;
+    color: rgb(126, 126, 126);
+}
+
+.btn-contact {
+    margin-bottom: -20px !important;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.contactInfo>label {
+    color: rgb(150, 148, 148);
+}
+
+.btnCenter {
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.skillbar-container {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #666463;
+    background-color: rgba(255, 255, 255, .1);
+    height: 35px;
+    height: 5px;
+}
+
+.skills {
+    height: 35px;
+    height: 5px;
+    width: 0px;
+}
+
+.text-left {
+    padding: 50px 50px;
+}
+
+.skillbarText {
+    text-align: left;
+    font-size: 16px;
+}
+
+#tiltable {
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+    width: 100%;
+}
+
+.fa-brands {
+    color: white;
+    padding-top: 30px;
+    transition: 0.2s
+}
+
+.fa-brands:hover {
+    color: rgb(124, 123, 123);
+}
+
+.appearRight {
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateX(40px);
+}
+
+.appearRight.inview {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.2s;
+}
+
+.appearLeft {
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateX(-40px);
+}
+
+.appearLeft.inview {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.3s;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.appear {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.projects>.row>h1 {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.projects>.row>small {
+    color: rgb(151, 149, 149);
+}
+
+.wrapper>p {
+    color: rgb(151, 149, 149);
+    text-align: center;
+}
+
+.articles>.row>h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.articles>.row>.col-12>p {
+    color: rgb(151, 149, 149);
+    text-align: left;
+}
+
+.links>p {
+    color: rgb(188, 186, 186);
+}
+
+.links>a {
+    color: rgb(151, 149, 149);
+    transition: 0.3s;
+}
+
+.links>a:hover {
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+}
+
+.articles>.row>.col-12>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.loginForm {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.loginForm>h1 {
+    display: block;
+}
+
+.btn-login {
+    background-color: white;
+    color: black;
+    float: right;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.dashboard>.row>.col-12>h1 {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.dashboard>.row>.col-12>p {
+    color: rgb(174, 173, 173);
+    text-align: center;
+}
+
+.dashboard>.row>.col-8>h4 {
+    color: rgb(214, 213, 213);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.dashboard>.row>.col-8>div {
+    border: solid 3px rgb(174, 173, 173);
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.dashboard>.row>.col-4 {
+    margin-top: 88px;
+}
+
+.alert {
+    color: black;
+}
+
+.readMessages {
+    color: rgb(151, 149, 149);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form>.mb-3>label {
+    color: white;
+}
+
+.message {
+    padding: 20px;
+}
+
+.companySite>h3 {
+    color: rgb(197, 197, 197);
+    transition: all 0.3s;
+}
+
+.companySite>h3:hover{
+    color: #666463;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #home-section {
+        padding: 0px;
+        margin-top: 100px;
+        padding-top: 60px;
+        margin-bottom: 700px;
+    }
+
+    #section10 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 150px;
+    }
+
+    #section10::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 80%;
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+    }
+
+    #section10 a {
+        padding-top: 60px;
+    }
+
+    #section10 a span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 30px;
+        height: 50px;
+        margin-left: -15px;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+
+    #section10 a span::before {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        content: '';
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        background-color: #fff;
+        border-radius: 100%;
+        -webkit-animation: sdb10 2s infinite;
+        animation: sdb10 2s infinite;
+        box-sizing: border-box;
+    }
+
+    @-webkit-keyframes sdb10 {
+        0% {
+            -webkit-transform: translate(0, 0);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1;
+        }
+
+        80% {
+            -webkit-transform: translate(0, 20px);
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes sdb10 {
+        0% {
+            transform: translate(0, 0);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1;
+        }
+
+        80% {
+            transform: translate(0, 20px);
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    main>div>#home-section>div {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    main>div>section>div>h1 {
+        margin-top: 250px;
+        margin-bottom: 150px;
+        text-align: center;
+    }
+
+    .typewrite {
+        color: white;
+        font-weight: lighter;
+    }
+
+    #home-section>.container>img {
+        display: none;
+    }
+
+    #about-section {
+        color: aliceblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #about-section>div>div>div>ul {
+        margin-left: -25px;
+    }
+
+    .listSpan {
+        font-weight: bold;
+        color: green;
+    }
+
+    main>div>#about-section>div>div>div>img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    #about-section>div>div>div>p>span {
+        font-weight: bold;
+    }
+
+    .wai {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-bartext {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #skills-section>div>h1 {
+        margin-top: 150px;
+    }
+
+    #skill-bar-wrapper {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-left {
+        margin-top: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    #projects-section {
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px !important;
+        margin-top: 50px;
+    }
+
+    #projects-section>div>div>h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>p {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>a>img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contactInfo {
+        margin-top: 50px;
+        padding-left: 0px;
+        display: none;
+    }
+
+    #contact-section>div>div>h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .iconSocial {
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+    .fa-brands {
+        margin: 5px;
+    }
+
+    .projects {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container>.row>.col-12>a>img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .container>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .container>.row>h1 {
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+
+    .container>.row>small {
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .container>.row>.col-12>a>img:hover {
+        opacity: 0.5;
+    }
+
+    .projectName {
+        text-align: center;
+        color: #fff;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    .projectDescription {
+        text-align: left;
+    }
+
+    .articles>.row>h2 {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    .articles>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .articles>.row>.col-12>img {
+        border-radius: 10px;
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .links>p {
+        color: rgb(188, 186, 186);
+        margin-top: 50px;
+    }
+
+    .links>a {
+        color: rgb(212, 212, 212);
+        padding-left: 100px;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #home-section {
+        padding: 0px;
+        margin-top: 5px;
+        padding-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    #section10 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 300px;
+    }
+
+    #section10::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 80%;
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+    }
+
+    #section10 a {
+        padding-top: 60px;
+    }
+
+    #section10 a span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 30px;
+        height: 50px;
+        margin-left: -15px;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+
+    #section10 a span::before {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        content: '';
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        background-color: #fff;
+        border-radius: 100%;
+        -webkit-animation: sdb10 2s infinite;
+        animation: sdb10 2s infinite;
+        box-sizing: border-box;
+    }
+
+    main>div>#home-section>div {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    main>div>section>div>h1 {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+
+    .typewrite {
+        color: white;
+        font-weight: lighter;
+    }
+
+    #home-section>.container>img {
+        display: none;
+    }
+
+    #about-section {
+        color: aliceblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #about-section>div>div>div>ul {
+        margin-left: -25px;
+    }
+
+    .listSpan {
+        font-weight: bold;
+        color: green;
+    }
+
+    main>div>#about-section>div>div>div>img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    #about-section>div>div>div>p>span {
+        font-weight: bold;
+        /* color: rgb(99, 187, 143); */
+    }
+
+    .wai {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-bartext {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #skills-section>div>h1 {
+        margin-top: 150px;
+    }
+
+    #skill-bar-wrapper {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-left {
+        margin-top: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    #projects-section {
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px !important;
+        margin-top: 50px;
+    }
+
+    #projects-section>div>div>h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>p {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>a>img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contactInfo {
+        margin-top: 50px;
+        padding-left: 0px;
+        display: none;
+    }
+
+    #contact-section>div>div>h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .iconSocial {
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+    .fa-brands {
+        margin: 5px;
+    }
+
+    .projects>.row>h1 {
+        text-align: center;
+    }
+
+    .projects>.row>small {
+        margin-bottom: 50px;
+        text-align: center
+    }
+
+    .articles>.row>h2 {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    .articles>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .articles>.row>.col-12>img {
+        border-radius: 10px;
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .links>p {
+        color: rgb(188, 186, 186);
+        margin-top: 50px;
+    }
+
+    .links>a {
+        color: rgb(212, 212, 212);
+        padding-left: 230px;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #home-section {
+        padding: 0px;
+        margin-top: 100px;
+        padding-top: 60px;
+        margin-bottom: 900px;
+    }
+
+    main>div>#home-section>div {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    main>div>section>div>h1 {
+        margin-top: 250px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .typewrite {
+        color: white;
+    }
+
+    #home-section>.container>img {
+        display: none;
+    }
+
+    #about-section {
+        color: aliceblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #about-section>div>div>div>ul {
+        margin-left: -25px;
+    }
+
+    .listSpan {
+        font-weight: bold;
+        color: green;
+    }
+
+    main>div>#about-section>div>div>div>img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 230px;
+        margin-right: 20px;
+    }
+
+    #about-section>div>div>div>p>span {
+        font-weight: bold;
+        /* color: rgb(99, 187, 143); */
+    }
+
+    .wai {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-bartext {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #skills-section>div>h1 {
+        margin-top: 150px;
+    }
+
+    #skill-bar-wrapper {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-left {
+        margin-top: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    #projects-section {
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px !important;
+        margin-top: 50px;
+    }
+
+    #projects-section>div>div>h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>p {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>a>img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contactInfo {
+        margin-top: 5px;
+        padding-left: 70px;
+        display: block;
+    }
+
+    #contact-section>div>div>h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .iconSocial {
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+    .fa-brands {
+        margin: 20px;
+    }
+
+    .projects>.row>h1 {
+        text-align: center;
+    }
+
+    .projects>.row>small {
+        font-size: 20px;
+        margin-bottom: 50px;
+        text-align: center
+    }
+
+    .wrapper>p {
+        font-size: 20px;
+    }
+
+    .articles>.row>h2 {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    .articles>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .articles>.row>.col-12>img {
+        border-radius: 10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .links>p {
+        color: rgb(188, 186, 186);
+        margin-top: 50px;
+    }
+
+    .links>a {
+        color: rgb(212, 212, 212);
+        padding-left: 320px;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #home-section {
+        padding: 0px;
+        margin-top: 100px;
+        padding-top: 60px;
+        margin-bottom: 900px;
+    }
+
+    main>div>#home-section>div {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    main>div>section>div>h1 {
+        margin-top: 250px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .typewrite {
+        color: white;
+    }
+
+    #home-section>.container>img {
+        display: none;
+    }
+
+    #about-section {
+        color: aliceblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #about-section>div>div>div>ul {
+        margin-left: -25px;
+    }
+
+    .listSpan {
+        font-weight: bold;
+        color: green;
+    }
+
+    main>div>#about-section>div>div>div>img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 150px;
+        margin-right: 20px;
+    }
+
+    #about-section>div>div>div>p>span {
+        font-weight: bold;
+        /* color: rgb(99, 187, 143); */
+    }
+
+    .wai {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-bartext {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #skills-section>div>h1 {
+        margin-top: 150px;
+    }
+
+    #skill-bar-wrapper {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-left {
+        margin-top: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    #projects-section {
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px !important;
+        margin-top: 50px;
+    }
+
+    #projects-section>div>div>h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>p {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>a>img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .contactInfo {
+        margin-top: 5px;
+        display: block;
+        padding-left: 100px;
+    }
+
+    #contact-section>div>div>h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .iconSocial {
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+    .fa-brands {
+        margin: 30px;
+    }
+
+    .projects>.row>h1 {
+        text-align: center;
+    }
+
+    .projects>.row>small {
+        font-size: 16px;
+        margin-bottom: 50px;
+        text-align: center
+    }
+
+    .wrapper>p {
+        font-size: 16px;
+    }
+
+    .articles>.row>h2 {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    .articles>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .articles>.row>.col-12>img {
+        border-radius: 10px;
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .links>p {
+        color: rgb(188, 186, 186);
+        margin-top: 50px;
+    }
+
+    .links>a {
+        color: rgb(212, 212, 212);
+        padding-left: 200px;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #home-section {
+        padding: 0px;
+        margin-top: 100px;
+        padding-top: 60px;
+        margin-bottom: 900px;
+    }
+
+    main>div>#home-section>div {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    main>div>section>div>h1 {
+        margin-top: 250px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .typewrite {
+        color: white;
+    }
+
+    #home-section>.container>img {
+        display: none;
+    }
+
+    #about-section {
+        color: aliceblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #about-section>div>div>div>ul {
+        margin-left: -25px;
+    }
+
+    .listSpan {
+        font-weight: bold;
+        color: green;
+    }
+
+    main>div>#about-section>div>div>div>img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+
+    #about-section>div>div>div>p>span {
+        font-weight: bold;
+        /* color: rgb(99, 187, 143); */
+    }
+
+    .wai {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-bartext {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #skills-section>div>h1 {
+        margin-top: 150px;
+    }
+
+    #skill-bar-wrapper {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-left {
+        margin-top: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    #projects-section {
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px !important;
+        margin-top: 50px;
+    }
+
+    #projects-section>div>div>h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>p {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>a>img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .contactInfo {
+        margin-top: 5px;
+        display: block;
+        padding-left: 100px;
+    }
+
+    #contact-section>div>div>h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .iconSocial {
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+    .fa-brands {
+        margin: 30px;
+    }
+
+    .projects>.row>h1 {
+        text-align: center;
+    }
+
+    .projects>.row>small {
+        font-size: 16px;
+        margin-bottom: 50px;
+        text-align: center
+    }
+
+    .wrapper>p {
+        font-size: 16px;
+    }
+
+    .articles>.row>h2 {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .articles>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .articles>.row>.col-12>img {
+        border-radius: 10px;
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .links>p {
+        color: rgb(188, 186, 186);
+        margin-top: 50px;
+    }
+
+    .links>a {
+        color: rgb(212, 212, 212);
+        padding-left: 230px;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #home-section {
+        padding: 0px;
+        margin-top: 100px;
+        padding-top: 60px;
+        margin-bottom: 900px;
+    }
+
+    main>div>#home-section>div {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    main>div>section>div>h1 {
+        margin-top: 250px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .typewrite {
+        color: white;
+    }
+
+    #home-section>.container>img {
+        display: none;
+    }
+
+    #about-section {
+        color: aliceblue;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #about-section>div>div>div>ul {
+        margin-left: -25px;
+    }
+
+    .listSpan {
+        font-weight: bold;
+        color: green;
+    }
+
+    main>div>#about-section>div>div>div>img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+
+    #about-section>div>div>div>p>span {
+        font-weight: bold;
+        /* color: rgb(99, 187, 143); */
+    }
+
+    .wai {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-bartext {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #skills-section>div>h1 {
+        margin-top: 150px;
+    }
+
+    #skill-bar-wrapper {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-left {
+        margin-top: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    #projects-section {
+        color: aliceblue;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px !important;
+        margin-top: 50px;
+    }
+
+    #projects-section>div>div>h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>p {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    #projects-section>div>div>div>a>img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .contactInfo {
+        margin-top: 5px;
+        display: block;
+        padding-left: 100px;
+    }
+
+    #contact-section>div>div>h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .iconSocial {
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+
+    .fa-brands {
+        margin: 30px;
+    }
+
+    .projects>.row>h1 {
+        text-align: center;
+    }
+
+    .projects>.row>small {
+        margin-bottom: 50px;
+        text-align: center
+    }
+
+    .articles>.row>h2 {
+        margin-bottom: 70px;
+    }
+
+    .articles>.row>h2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .articles>.row>.col-12>p {
+        text-align: center;
+    }
+
+    .articles>.row>.col-12>img {
+        border-radius: 10px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .links>p {
+        color: rgb(188, 186, 186);
+        margin-top: 50px;
+    }
+
+    .links>a {
+        color: rgb(212, 212, 212);
+        padding-left: 280px;
+        text-decoration: underline;
+    }
+}
