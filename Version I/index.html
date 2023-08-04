@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog RGB</title>
+    <link rel="icon" type="image/jpeg" href="ea888e9c465bcdb6d373c54679a91efc.jpg">
+</head>
+<body>
+    <input type="text" id="username" name="username" placeholder="Username"> <br>
+    <input type="text" id="email" name="email" placeholder="E-mail"> <br>
+    <input type="password" id="password" name="password" placeholder="Password"> <br>
+
+    <input type="submit" id="sighUp" name="signup_submit" placeholder="Sign Up">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Shadows+Into+Light'>
+  
+    <style>
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 30px;
+        }
+
+        .notepad {
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+            border-radius: 0 0 10px 10px;
+            overflow: hidden;
+        }
+
+        .top {
+            width: 100%;
+            height: 50px;
+            background: #333;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .paper {
+            width: 100%;
+            height: 100%;
+            min-height: 60vh;
+            padding: 35px 20px;
+            background: repeating-linear-gradient(#FFFAF0, #FFFAF0 31px, #94ACD4 31px, #94ACD4 32px);
+            font-family: "Shadows Into Light", cursive;
+            line-height: 32px;
+            outline: 0;
+            font-size: 22px;
+        } 
+    </style>
+
+    
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+    <div class="notepad">
+        <div class="top" style="font-family: 'Shadows Into Light', cursive; color: #FFFAF0#FFFAF0; align-content: normal;"><br><input type="hidden" id="Egg" value="https://gitlab.com/CosmosRGB">Notes</div>
+        <div class="paper" contenteditable="false">
+            Moi, en quelques mots : <br> <br>
+            En fait, y'a pas grand chose à dire. Sinon, allez voir les softwares<br> <br>
+            Je me présente, Evrest, développeur. Je ne le suis pas à proprement parlé : ce n'est pas ma profession, c'est un passe-temps. Je programme en Python et JS, tout en apprenant Assembly (ASM 6502 pour la NES). Je dois l'avouer, HTML et CSS, c'est pas mon fort. Par contre, je maîtrise à merveille le langage de Guido Van Rossum. J'ai déjà fait plusieurs projets comme un sondage intitulé Survey (très créatif) et, que vous pouvez télécharger tous deux dans la partie liens.
+
+            J'aime aussi les blagues, et surtout celles basées sur Undertale (quel univers magnifique !). Et je pense me mettre au Web Comics.
+
+            Liens : <br> <br>
+            <a href="https://drive.google.com/drive/folders/1IOMd1nMfpPazz8_1QuDfGAWuYsbm33f5?usp=drive_link" target="_blank" rel="noopener noreferrer">Google Drive</a>
+            
+        </div>
+    </div>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+    import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyC3oOAVL1VCm7wZJQVEK2NJyyzjUeSr5Dc",
+      authDomain: "evrest-blog.firebaseapp.com",
+      databaseURL: "https://evrest-blog-default-rtdb.firebaseio.com",
+      projectId: "evrest-blog",
+      storageBucket: "evrest-blog.appspot.com",
+      messagingSenderId: "799336083331",
+      appId: "1:799336083331:web:13c94b0f4132c35e1450b6"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth();
+
+sighUp.addEventListener('click', (e) => {
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var username = document.getElementById('username').value;
+
+    createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed in 
+    const user = userCredential.user;
+    set(ref(database, 'users/' + user.uid), {
+        username: username,
+        email: email
+    } )
+
+    alert('user created')
+
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+
+    alert(errorMessage);
+    // ..  
+  });
+});
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NVB68QCDMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NVB68QCDMR');
+</script>
+</html>
+
+<!--evrest-blog sur FireBase-->
