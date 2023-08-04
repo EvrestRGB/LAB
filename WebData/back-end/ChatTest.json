@@ -1,0 +1,446 @@
+[
+  {
+    "kind": "customsearch#result",
+    "title": "Introducing ChatGPT",
+    "htmlTitle": "Introducing <b>ChatGPT</b>",
+    "link": "https://openai.com/blog/chatgpt",
+    "displayLink": "openai.com",
+    "snippet": "Nov 30, 2022 ... ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.",
+    "htmlSnippet": "Nov 30, 2022 <b>...</b> <b>ChatGPT</b> is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.",
+    "cacheId": "0I9ACm6--8AJ",
+    "formattedUrl": "https://openai.com/blog/chatgpt",
+    "htmlFormattedUrl": "https://openai.com/blog/<b>chatgpt</b>",
+    "pagemap": {
+      "metatags": [
+        {
+          "og:image": "https://images.openai.com/blob/7f6c5b76-875f-455d-ac21-317aa984652e/chatgpt-og.jpg?trim=0%2C860%2C0%2C36",
+          "og:image:alt": "Chatgpt Og",
+          "twitter:card": "summary_large_image",
+          "twitter:image:alt": "Chatgpt Og",
+          "twitter:site": "@OpenAI",
+          "viewport": "width=device-width, initial-scale=1",
+          "og:title": "Introducing ChatGPT",
+          "og:description": "We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.",
+          "twitter:image": "https://images.openai.com/blob/7f6c5b76-875f-455d-ac21-317aa984652e/chatgpt-og.jpg?trim=0%2C860%2C0%2C36"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://images.openai.com/blob/7f6c5b76-875f-455d-ac21-317aa984652e/chatgpt-og.jpg?trim=0%2C860%2C0%2C36"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "ChatGPT on the App Store",
+    "htmlTitle": "<b>ChatGPT</b> on the App Store",
+    "link": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+    "displayLink": "apps.apple.com",
+    "snippet": "4 days ago ... Read reviews, compare customer ratings, see screenshots, and learn more about ChatGPT. Download ChatGPT and enjoy it on your iPhone, iPad, ...",
+    "htmlSnippet": "4 days ago <b>...</b> Read reviews, compare customer ratings, see screenshots, and learn more about <b>ChatGPT</b>. Download <b>ChatGPT</b> and enjoy it on your iPhone, iPad,&nbsp;...",
+    "cacheId": "v9oKaDw18osJ",
+    "formattedUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+    "htmlFormattedUrl": "https://apps.apple.com/us/app/<b>chatgpt</b>/id6448311069",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNnbUTawkuzEKHgdxKGk8KyDnJJT050ez5IXbg2KBWlBsHvkf7ZyvVHEg",
+          "width": "310",
+          "height": "163"
+        }
+      ],
+      "metatags": [
+        {
+          "apple-itunes-app": "app-id=375380948, app-argument=https://apps.apple.com/us/app/chatgpt/id6448311069",
+          "og:image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/a9/02/8da902ec-af7a-b776-a6a3-37484cb6a281/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png",
+          "og:image:width": "1200",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "App Store",
+          "applicable-device": "pc,mobile",
+          "og:image:type": "image/png",
+          "og:description": "‎Introducing ChatGPT for iOS: OpenAI’s latest advancements at your fingertips.\n\nThis official app is free, syncs your history across devices, and brings you the newest model improvements from OpenAI.\n\nWith ChatGPT in your pocket, you’ll find:\n\n· Instant answers\n· Tailored advice\n· Creative inspiratio…",
+          "og:image:secure_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/a9/02/8da902ec-af7a-b776-a6a3-37484cb6a281/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png",
+          "twitter:image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/a9/02/8da902ec-af7a-b776-a6a3-37484cb6a281/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x600wa.png",
+          "web-experience-app/config/environment": "%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22CLOCK_INTERVAL%22%3A1000%2C%22LOADING_SPINNER_SPY%22%3Atrue%2C%22BREAKPOINTS%22%3A%7B%22large%22%3A%7B%22min%22%3A1069%2C%22max%22%3A1440%2C%22content%22%3A980%7D%2C%22medium%22%3A%7B%22min%22%3A735%2C%22max%22%3A1068%2C%22content%22%3A692%7D%2C%22small%22%3A%7B%22min%22%3A320%2C%22max%22%3A734%2C%22content%22%3A280%7D%7D%2C%22buildVariant%22%3A%22apps%22%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%222328.0.0%2B5235d75a%22%7D%2C%22MEDIA_API%22",
+          "twitter:image:alt": "ChatGPT on the App Store",
+          "twitter:site": "@AppStore",
+          "og:image:alt": "ChatGPT on the App Store",
+          "og:type": "website",
+          "twitter:title": "‎ChatGPT",
+          "og:title": "‎ChatGPT",
+          "og:image:height": "630",
+          "version": "2328.0.0",
+          "globalnav-search-suggestions-enabled": "false",
+          "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+          "ac-gn-search-suggestions-enabled": "false",
+          "twitter:description": "‎Introducing ChatGPT for iOS: OpenAI’s latest advancements at your fingertips.\n\nThis official app is free, syncs your history across devices, and brings you the newest model improvements from OpenAI.\n\nWith ChatGPT in your pocket, you’ll find:\n\n· Instant answers\n· Tailored advice\n· Creative inspiratio…",
+          "og:locale": "en_US",
+          "apple:content_id": "6448311069",
+          "og:url": "https://apps.apple.com/us/app/chatgpt/id6448311069"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/a9/02/8da902ec-af7a-b776-a6a3-37484cb6a281/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "OpenAI",
+    "htmlTitle": "OpenAI",
+    "link": "https://openai.com/",
+    "displayLink": "openai.com",
+    "snippet": "Site Navigation. Research. Overview · Index. Product. Overview · ChatGPT · GPT-4 · DALL·E 2 · Customer stories · Safety standards · Pricing. Developers.",
+    "htmlSnippet": "Site Navigation. Research. Overview &middot; Index. Product. Overview &middot; <b>ChatGPT</b> &middot; GPT-4 &middot; DALL·E 2 &middot; Customer stories &middot; Safety standards &middot; Pricing. Developers.",
+    "cacheId": "ZJjhy9NmZvMJ",
+    "formattedUrl": "https://openai.com/",
+    "htmlFormattedUrl": "https://openai.com/",
+    "pagemap": {
+      "metatags": [
+        {
+          "og:image": "https://images.openai.com/blob/fb4a2ba6-9109-4c7b-af4d-cae530c3fa78/recruitment-video-poster.jpg?trim=0%2C0%2C0%2C0",
+          "og:image:alt": "People chatting around a couch in a plant-filled sunny room",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@OpenAI",
+          "viewport": "width=device-width, initial-scale=1",
+          "og:title": "OpenAI",
+          "og:description": "Creating safe AGI that benefits all of humanity",
+          "twitter:image": "https://images.openai.com/blob/fb4a2ba6-9109-4c7b-af4d-cae530c3fa78/recruitment-video-poster.jpg?trim=0%2C0%2C0%2C0"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://images.openai.com/blob/fb4a2ba6-9109-4c7b-af4d-cae530c3fa78/recruitment-video-poster.jpg?trim=0%2C0%2C0%2C0"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "ChatGPT - Wikipedia",
+    "htmlTitle": "<b>ChatGPT</b> - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/ChatGPT",
+    "displayLink": "en.wikipedia.org",
+    "snippet": "ChatGPT is an artificial intelligence chatbot developed by OpenAI and launched on November 30, 2022. It is notable for enabling users to refine and steer a ...",
+    "htmlSnippet": "<b>ChatGPT</b> is an artificial intelligence chatbot developed by OpenAI and launched on November 30, 2022. It is notable for enabling users to refine and steer a&nbsp;...",
+    "cacheId": "_1hqgHyFFYEJ",
+    "formattedUrl": "https://en.wikipedia.org/wiki/ChatGPT",
+    "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>ChatGPT</b>",
+    "pagemap": {
+      "metatags": [
+        {
+          "referrer": "origin",
+          "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png",
+          "theme-color": "#eaecf0",
+          "og:image:width": "1200",
+          "og:type": "website",
+          "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+          "og:title": "ChatGPT - Wikipedia",
+          "og:image:height": "1200",
+          "format-detection": "telephone=no"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "What is ChatGPT and why does it matter? Here's what you need to ...",
+    "htmlTitle": "What is <b>ChatGPT</b> and why does it matter? Here&#39;s what you need to ...",
+    "link": "https://www.zdnet.com/article/what-is-chatgpt-and-why-does-it-matter-heres-everything-you-need-to-know/",
+    "displayLink": "www.zdnet.com",
+    "snippet": "Jun 26, 2023 ... ChatGPT is a natural language processing tool driven by AI technology that allows you to have human-like conversations and much more with the ...",
+    "htmlSnippet": "Jun 26, 2023 <b>...</b> <b>ChatGPT</b> is a natural language processing tool driven by AI technology that allows you to have human-like conversations and much more with the&nbsp;...",
+    "cacheId": "Pr8NlGtNU3gJ",
+    "formattedUrl": "https://www.zdnet.com/.../what-is-chatgpt-and-why-does-it-matter-heres- everything-you-need-to-know/",
+    "htmlFormattedUrl": "https://www.zdnet.com/.../what-is-<b>chatgpt</b>-and-why-does-it-matter-heres- everything-you-need-to-know/",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sz2RmkT6FRg9-FhdvHZGgSLcyNA1D27AnuOdBTEmI9N8la9mLYb4KaAT",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://www.zdnet.com/a/img/resize/c3432eae8af34a6539d12ee95688292c9745948c/2023/01/23/26708595-de1a-43d4-a4c6-d6f00f5fea1b/gettyimages-1246184980.jpg?auto=webp&fit=crop&height=675&width=1200",
+          "twitter:card": "summary_large_image",
+          "theme-color": "#080A12",
+          "og:type": "article",
+          "twitter:title": "What is ChatGPT and why does it matter? Here's what you need to know",
+          "og:site_name": "ZDNET",
+          "twitter:url": "https://www.zdnet.com/article/what-is-chatgpt-and-why-does-it-matter-heres-everything-you-need-to-know/",
+          "og:title": "What is ChatGPT and why does it matter? Here's what you need to know",
+          "twitter:creator": "@ZDNET",
+          "og:description": "Updated: This AI chatbot's advanced conversational capabilities have generated quite the buzz. We answer your questions.",
+          "twitter:image": "https://www.zdnet.com/a/img/resize/c3432eae8af34a6539d12ee95688292c9745948c/2023/01/23/26708595-de1a-43d4-a4c6-d6f00f5fea1b/gettyimages-1246184980.jpg?auto=webp&fit=crop&height=675&width=1200",
+          "article:publisher": "https://www.facebook.com/ZDNET.official",
+          "fb:app_id": "136759700898",
+          "twitter:site": "@ZDNET",
+          "viewport": "width=device-width, initial-scale=1",
+          "nuxtstatus": "loaded",
+          "twitter:description": "Updated: This AI chatbot's advanced conversational capabilities have generated quite the buzz. We answer your questions.",
+          "article:content_tier": "free",
+          "og:url": "https://www.zdnet.com/article/what-is-chatgpt-and-why-does-it-matter-heres-everything-you-need-to-know/"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.zdnet.com/a/img/resize/c3432eae8af34a6539d12ee95688292c9745948c/2023/01/23/26708595-de1a-43d4-a4c6-d6f00f5fea1b/gettyimages-1246184980.jpg?auto=webp&fit=crop&height=675&width=1200"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "What is ChatGPT? | OpenAI Help Center",
+    "htmlTitle": "What is <b>ChatGPT</b>? | OpenAI Help Center",
+    "link": "https://help.openai.com/en/articles/6783457-what-is-chatgpt",
+    "displayLink": "help.openai.com",
+    "snippet": "ChatGPT is fine-tuned from GPT-3.5, a language model trained to produce text. ChatGPT was optimized for dialogue by using Reinforcement Learning with Human ...",
+    "htmlSnippet": "<b>ChatGPT</b> is fine-tuned from GPT-3.5, a language model trained to produce text. <b>ChatGPT</b> was optimized for dialogue by using Reinforcement Learning with Human&nbsp;...",
+    "cacheId": "zPKEkpj401EJ",
+    "formattedUrl": "https://help.openai.com/en/articles/6783457-what-is-chatgpt",
+    "htmlFormattedUrl": "https://help.openai.com/en/articles/6783457-what-is-<b>chatgpt</b>",
+    "pagemap": {
+      "metatags": [
+        {
+          "next-head-count": "14",
+          "twitter:title": "What is ChatGPT? | OpenAI Help Center",
+          "og:type": "article",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "Commonly asked questions about ChatGPT",
+          "og:title": "What is ChatGPT? | OpenAI Help Center",
+          "og:description": "Commonly asked questions about ChatGPT"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "The Brilliance and Weirdness of ChatGPT - The New York Times",
+    "htmlTitle": "The Brilliance and Weirdness of <b>ChatGPT</b> - The New York Times",
+    "link": "https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+    "displayLink": "www.nytimes.com",
+    "snippet": "Dec 5, 2022 ... ChatGPT is, quite simply, the best artificial intelligence chatbot ever released to the general public. It was built by OpenAI, ...",
+    "htmlSnippet": "Dec 5, 2022 <b>...</b> <b>ChatGPT</b> is, quite simply, the best artificial intelligence chatbot ever released to the general public. It was built by OpenAI,&nbsp;...",
+    "formattedUrl": "https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+    "htmlFormattedUrl": "https://www.nytimes.com/2022/12/05/technology/<b>chatgpt</b>-ai-twitter.html",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRt3U1hL6Jyhpgwd-UwTKdl9zM2o01qsL5H48Jjhx8oa8fvvX0ot2G0k5LF",
+          "width": "311",
+          "height": "162"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://static01.nyt.com/images/2022/12/09/business/05roose-chatgpt/05roose-chatgpt-facebookJumbo.jpg",
+          "nyt_uri": "nyt://article/e3db1bb3-1fbd-5f55-b9ef-677fba1a10fa",
+          "twitter:app:id:googleplay": "com.nytimes.android",
+          "twitter:card": "summary_large_image",
+          "article:published_time": "2022-12-05T23:34:37.000Z",
+          "pt": "article",
+          "twitter:url": "https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+          "pdate": "20221205",
+          "articleid": "100000008671156",
+          "al:android:package": "com.nytimes.android",
+          "al:ipad:app_store_id": "357066198",
+          "twitter:app:name:googleplay": "NYTimes",
+          "og:description": "A new chatbot from OpenAI is inspiring awe, fear, stunts and attempts to circumvent its guardrails.",
+          "twitter:image": "https://static01.nyt.com/images/2022/12/09/business/05roose-chatgpt/05roose-chatgpt-videoSixteenByNineJumbo1600.jpg",
+          "pst": "News",
+          "twitter:image:alt": "Here is what DALL-E 2 produced when given the prompt, “A distributed linguistic superbrain that takes the form of an A.I. chatbot.”",
+          "al:iphone:app_name": "NYTimes",
+          "article:modified_time": "2022-12-06T22:11:51.000Z",
+          "news_keywords": "ChatGPT,Artificial intelligence,Computers and the Internet,Tech Industry,OpenAI,Censorship,Google,",
+          "article:content_tier": "metered",
+          "msapplication-starturl": "https://www.nytimes.com",
+          "image": "https://static01.nyt.com/images/2022/12/09/business/05roose-chatgpt/05roose-chatgpt-facebookJumbo.jpg",
+          "og:type": "article",
+          "og:image:alt": "Here is what DALL-E 2 produced when given the prompt, “A distributed linguistic superbrain that takes the form of an A.I. chatbot.”",
+          "twitter:title": "The Brilliance and Weirdness of ChatGPT",
+          "article:section": "Technology",
+          "cg": "technology",
+          "pubp_event_id": "pubp://event/eb68710d3d2249c19d4becfa42c4026f",
+          "og:title": "The Brilliance and Weirdness of ChatGPT",
+          "cn": "the-shift",
+          "url": "https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+          "article:tag": "ChatGPT",
+          "al:iphone:url": "nytimes://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+          "al:android:url": "nyt://article/e3db1bb3-1fbd-5f55-b9ef-677fba1a10fa",
+          "twitter:app:url:googleplay": "nyt://article/e3db1bb3-1fbd-5f55-b9ef-677fba1a10fa",
+          "al:ipad:url": "nytimes://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+          "byl": "By Kevin Roose",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "A new chatbot from OpenAI is inspiring awe, fear, stunts and attempts to circumvent its guardrails.",
+          "al:iphone:app_store_id": "284862083",
+          "al:ipad:app_name": "NYTimes",
+          "og:url": "https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html",
+          "al:android:app_name": "NYTimes",
+          "article:opinion": "false"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://static01.nyt.com/images/2022/12/09/business/05roose-chatgpt/05roose-chatgpt-facebookJumbo.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "ChatGPT — Release Notes | OpenAI Help Center",
+    "htmlTitle": "<b>ChatGPT</b> — Release Notes | OpenAI Help Center",
+    "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "displayLink": "help.openai.com",
+    "snippet": "It lets ChatGPT run code, optionally with access to files you've uploaded. You can ask ChatGPT to analyze data, create charts, edit files, perform math, ...",
+    "htmlSnippet": "It lets <b>ChatGPT</b> run code, optionally with access to files you&#39;ve uploaded. You can ask <b>ChatGPT</b> to analyze data, create charts, edit files, perform math,&nbsp;...",
+    "cacheId": "f3PCLfKSsg4J",
+    "formattedUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "htmlFormattedUrl": "https://help.openai.com/en/articles/6825453-<b>chatgpt</b>-release-notes",
+    "pagemap": {
+      "metatags": [
+        {
+          "next-head-count": "14",
+          "twitter:title": "ChatGPT — Release Notes | OpenAI Help Center",
+          "og:type": "article",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "The latest update for ChatGPT",
+          "og:title": "ChatGPT — Release Notes | OpenAI Help Center",
+          "og:description": "The latest update for ChatGPT"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "ChatGPT sets record for fastest-growing user base - analyst note ...",
+    "htmlTitle": "<b>ChatGPT</b> sets record for fastest-growing user base - analyst note ...",
+    "link": "https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/",
+    "displayLink": "www.reuters.com",
+    "snippet": "Feb 2, 2023 ... ChatGPT, the popular chatbot from OpenAI, is estimated to have reached 100 million monthly active users in January, just two months after ...",
+    "htmlSnippet": "Feb 2, 2023 <b>...</b> <b>ChatGPT</b>, the popular chatbot from OpenAI, is estimated to have reached 100 million monthly active users in January, just two months after&nbsp;...",
+    "formattedUrl": "https://www.reuters.com/.../chatgpt-sets-record-fastest-growing-user-base- analyst-note-2023-02-01/",
+    "htmlFormattedUrl": "https://www.reuters.com/.../<b>chatgpt</b>-sets-record-fastest-growing-user-base- analyst-note-2023-02-01/",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjahCnMU3h2NiTLOQHb5cbcnTeSRlVjnu2Z0Iy29UbP_cqll4yQHKfeoE",
+          "width": "311",
+          "height": "162"
+        }
+      ],
+      "metatags": [
+        {
+          "apple-itunes-app": "app-id=602660809, app-argument=https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/?id=62FSHEPTUFMTDOOA5GL7MOKXD4",
+          "og:image": "https://www.reuters.com/resizer/SI1bfTNC-Bz7KNhJOpYooify8JE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XABUQJTBDFJIRDVHJEICSACX74.jpg",
+          "analytics:page_layout": "regular-article",
+          "article:published_time": "2023-02-02T15:33:00Z",
+          "og:image:width": "1200",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "Reuters",
+          "analytics:ad_layout": "leaderboard, right rail, sponsored",
+          "analyticsattributes.topicchannel": "Technology",
+          "og:description": "ChatGPT, the popular chatbot from OpenAI, is estimated to have reached 100 million monthly active users in January, just two months after launch, making it the fastest-growing consumer application in history, according to a UBS study on Wednesday.",
+          "twitter:creator": "@Reuters",
+          "twitter:image": "https://www.reuters.com/resizer/SI1bfTNC-Bz7KNhJOpYooify8JE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XABUQJTBDFJIRDVHJEICSACX74.jpg",
+          "twitter:image:alt": "An illustration projected on a screen shows a robot hand and a human one moving towards each others during the \"AI for Good\" Global Summit at the International Telecommunication Union (ITU) in Geneva, Switzerland, June 7, 2017.    REUTERS/Denis Balibouse",
+          "twitter:site": "@Reuters",
+          "article:modified_time": "2023-02-02T15:54:50.569Z",
+          "fb:admins": "988502044532272",
+          "article:content_tier": "metered",
+          "og:type": "article",
+          "article:section": "Technology",
+          "og:image:alt": "An illustration projected on a screen shows a robot hand and a human one moving towards each others during the \"AI for Good\" Global Summit at the International Telecommunication Union (ITU) in Geneva, Switzerland, June 7, 2017.    REUTERS/Denis Balibouse",
+          "twitter:title": "ChatGPT sets record for fastest-growing user base - analyst note",
+          "ad:template": "article",
+          "og:image:url": "https://www.reuters.com/resizer/SI1bfTNC-Bz7KNhJOpYooify8JE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XABUQJTBDFJIRDVHJEICSACX74.jpg",
+          "dcsext.dartzone": "/4735792/reuters.com/technology/article",
+          "og:title": "ChatGPT sets record for fastest-growing user base - analyst note",
+          "dcsext.channellist": "Technology;Business",
+          "og:image:height": "628",
+          "og:article:published_time": "2023-02-02T15:33:00Z",
+          "fb:pages": "114050161948682",
+          "article:author": "Krystal Hu",
+          "article:tag": "EF:TECHNOLOGY-DISRUPTED,BACT,BIZ,BSUP,BSUP1,CMPNY,CMSS,CMSS08,CPROD,CTRAIN,GEN,INDS,INDS08,ISER,ISER08,ITSE,ITSE08,MLAISV,PRIVT,PUBL,SOCI,SOFW,SOFW1,SWIT,TECH,TECH08,TMT,WWW,AMERS,US,NAMER,TOPCMB,TOPNWS",
+          "fb:app_id": "988502044532272",
+          "og:locale:alternate": "jp_JP",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "ChatGPT, the popular chatbot from OpenAI, is estimated to have reached 100 million monthly active users in January, just two months after launch, making it the fastest-growing consumer application in history, according to a UBS study on Wednesday.",
+          "og:locale": "en_US",
+          "og:url": "https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.reuters.com/resizer/SI1bfTNC-Bz7KNhJOpYooify8JE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XABUQJTBDFJIRDVHJEICSACX74.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Why We're Obsessed With the Mind-Blowing ChatGPT AI Chatbot ...",
+    "htmlTitle": "Why We&#39;re Obsessed With the Mind-Blowing <b>ChatGPT</b> AI Chatbot ...",
+    "link": "https://www.cnet.com/tech/computing/why-were-all-obsessed-with-the-mind-blowing-chatgpt-ai-chatbot/",
+    "displayLink": "www.cnet.com",
+    "snippet": "Dec 5, 2022 ... The tool, from a power player in artificial intelligence called OpenAI, lets you type natural-language prompts. ChatGPT then offers ...",
+    "htmlSnippet": "Dec 5, 2022 <b>...</b> The tool, from a power player in artificial intelligence called OpenAI, lets you type natural-language prompts. <b>ChatGPT</b> then offers&nbsp;...",
+    "cacheId": "2rU5f7b4svIJ",
+    "formattedUrl": "https://www.cnet.com/.../why-were-all-obsessed-with-the-mind-blowing- chatgpt-ai-chatbot/",
+    "htmlFormattedUrl": "https://www.cnet.com/.../why-were-all-obsessed-with-the-mind-blowing- <b>chatgpt</b>-ai-chatbot/",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzmHczfjYCxWSuTdPG4Dpi4VWWnk9ldVBvw-tJa56c7SONXmV6HMvB8iJL",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
+        {
+          "p:domain_verify": "47524839a64b83c951afca9ef6c838e0",
+          "og:image": "https://www.cnet.com/a/img/resize/5b48101c02de168e73b0506202269cb434cf8e47/hub/2022/12/06/3dd7180c-d0e7-47ca-bc37-b5df15a41a25/ai-chat-gettyimages.jpg?auto=webp&fit=crop&height=675&width=1200",
+          "twitter:card": "summary_large_image",
+          "theme-color": "#ffffff",
+          "og:site_name": "CNET",
+          "twitter:url": "https://www.cnet.com/tech/computing/why-were-all-obsessed-with-the-mind-blowing-chatgpt-ai-chatbot/",
+          "msapplication-tooltip": "Product reviews and prices, software downloads, and tech news - CNET",
+          "postid": "07e1fdea-7a2a-469e-a488-9bb9dd54d17e",
+          "twitter:creator": "@CNET",
+          "og:description": "This artificial intelligence bot can answer questions, write essays, summarize documents and write software. But deep down, it doesn't know what's true.",
+          "article:publisher": "https://www.facebook.com/cnet",
+          "twitter:image": "https://www.cnet.com/a/img/resize/5b48101c02de168e73b0506202269cb434cf8e47/hub/2022/12/06/3dd7180c-d0e7-47ca-bc37-b5df15a41a25/ai-chat-gettyimages.jpg?auto=webp&fit=crop&height=675&width=1200",
+          "twitter:site": "@CNET",
+          "fb:admins": "100001036810388",
+          "article:content_tier": "free",
+          "twitter:account_id": "30261067",
+          "msapplication-starturl": "https://www.cnet.com/",
+          "msapplication-tilecolor": "#141415",
+          "og:type": "article",
+          "twitter:title": "Why We're Obsessed With the Mind-Blowing ChatGPT AI Chatbot",
+          "msapplication-window": "width=1024;height=768",
+          "og:title": "Why We're Obsessed With the Mind-Blowing ChatGPT AI Chatbot",
+          "fb:pages": "7155422274",
+          "referrer": "no-referrer-when-downgrade",
+          "fb:app_id": "16995676698",
+          "viewport": "width=device-width, initial-scale=1, minimum-scale=1",
+          "twitter:description": "This artificial intelligence bot can answer questions, write essays, summarize documents and write software. But deep down, it doesn't know what's true.",
+          "og:url": "https://www.cnet.com/tech/computing/why-were-all-obsessed-with-the-mind-blowing-chatgpt-ai-chatbot/",
+          "article:opinion": "false",
+          "msapplication-task": "name=Home; action-uri=https://www.cnet.com/; icon-uri=https://www.cnet.com/favicon-v3.ico"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.cnet.com/a/img/resize/5b48101c02de168e73b0506202269cb434cf8e47/hub/2022/12/06/3dd7180c-d0e7-47ca-bc37-b5df15a41a25/ai-chat-gettyimages.jpg?auto=webp&fit=crop&height=675&width=1200"
+        }
+      ]
+    }
+  }
+]
